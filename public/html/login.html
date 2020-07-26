@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- *********** Fontawsome ************* -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- ********* CSS Used ********** -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/login.css">  
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.png">
+    <title>Login</title> 
+</head>
+<body>
+    <nav>
+      <div class="topnav" id="myTopnav">     
+          <img class="logo-box logo" src="../img/logo-white.png" alt="logo">
+          <a href="../html/index.html#about">Home</a>
+          <a href="../html/index.html#destinations">Destinations</a>
+          <a href="../html/index.html#contact-us">Contact Us</a>
+          <a href="../html/signup.html">SignUp</a>
+          <a href="../html/login.html">Log In</a>
+          <a href="javascript:void(0);" class="icon">
+              <i class="fa fa-bars"></i>
+          </a>
+        </div>
+
+    </nav>
+    <header class="header">
+        <section class="logo-box"> 
+            <img src="../img/logo-white.png" alt="logo" class="logo">
+        </section>
+        <div class="text-box-Registration-Login">
+            <h1 class="heading-primary">
+                <span class="heading-Registration-Login">Travel Expert</span>
+            </h1> 
+        </div>
+    </header>
+    <div id="login" class="div-contact-registration" >
+      <form  class="form-contact" method="POST"> 
+          <h4>Login Form</h4>
+          <div> 
+              <label for="email" class="text-label">Email</label><br>
+              <input type="email" id="email" name="email" placeholder="Email name@domain" class="text-form1" minlength="8" maxlength="50" title="Enter valid Email Address" required >
+          </div>
+          
+          <div >
+              <label for="pwd"  class="text-label">Password</label><br>
+              <input type="password" id="pwd" name="pwd" placeholder="Password" class="text-form1" title="Please Enter Your Password" required >
+          </div>
+          <div>
+                <input type="submit" id="submit" value="Submit" class="text-label" >
+          </div> 
+                 <label for="agree" >Subscribe To News Letter</label>
+                 <input type="checkbox" id="agree" name="agree1" value="1">
+          <h6>Not Member yet </space><a href="../html/signup.html" class="loginregister">Register Now</a></h6>       
+        </form>
+    </div>
+    <div class="footer-register">
+        <footer>
+            <div>
+              <h5>Follow Us</h5>
+              <ul class="social">
+                  <li class="social"><a href="https://www.facebook.com/sait/"><i style="font-size:24px" class="fa">&#xf082;</i></a></li>
+                  <li class="social"><a href="https://twitter.com/sait"><i style="font-size:24px" class="fa">&#xf099;</i></a></li>
+                  <li class="social"><a href="https://www.instagram.com/SAIT/"> <i style="font-size:24px" class="fa">&#xf16d;</i></a></li>         
+              </ul>
+              <p class="copyright">Copyright &copy; 2020 Travel Expert </p>
+            </div>
+          </footer>
+      </div>    
+  <script src="../js/index.js"> </script>
+</body>
+</html>

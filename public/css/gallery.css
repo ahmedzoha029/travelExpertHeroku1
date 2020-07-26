@@ -1,0 +1,18 @@
+/* gallery */
+.center-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.full-vh {
+    min-height: 100vh;
+    /* background-color: #7ed56f; */
+    /* background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.800), rgba(40, 180, 131, 0.800)),
+		url(../img/Athabasca_Hero.jpg);
+    background-size: cover; */
+    text-align: justify;
+  }
+  .gallery > * {
+    margin: 0.5em;
+  }
